@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_notic_board"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="jjmpoly.prathameshmore.com.co_jjmpoly.NoticBoard"
+    tools:showIn="@layout/activity_notic_board">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp">
+
+            <ImageView
+                android:id="@+id/notice1"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:src="@drawable/error"
+                />
+
+            <ImageView
+                android:id="@+id/notice2"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/error"/>
+
+            <ImageView
+                android:id="@+id/notice3"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/error"/>
+
+            <ImageView
+                android:id="@+id/notice4"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/error"/>
+
+            <ImageView
+                android:id="@+id/notice5"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/error"/>
+
+            <ImageView
+                android:id="@+id/notice6"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/error"/>
+
+            <ImageView
+                android:id="@+id/notice7"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/error"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

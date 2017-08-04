@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_tech_news"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="jjmpoly.prathameshmore.com.co_jjmpoly.TechNews"
+    tools:showIn="@layout/activity_tech_news">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/technewsTitle"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:paddingTop="9dp"
+                />
+
+            <WebView
+                android:id="@+id/webView_News1"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="9dp">
+            </WebView>
+
+            <WebView
+                android:id="@+id/webView_News2"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="9dp">
+            </WebView>
+
+            <WebView
+                android:id="@+id/webView_News3"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="9dp">
+            </WebView>
+
+            <WebView
+                android:id="@+id/webView_News4"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="9dp">
+            </WebView>
+
+            <WebView
+                android:id="@+id/webView_News5"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginBottom="20dp">
+            </WebView>
+
+            <WebView
+                android:id="@+id/webView_News6"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginBottom="20dp">
+            </WebView>
+
+            <WebView
+                android:id="@+id/webView_News7"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginBottom="20dp">
+            </WebView>
+
+            <WebView
+                android:id="@+id/webView_News8"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginBottom="20dp">
+            </WebView>
+
+            <WebView
+                android:id="@+id/webView_News9"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginBottom="20dp">
+            </WebView>
+
+            <WebView
+                android:id="@+id/webView_News10"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginBottom="20dp">
+            </WebView>
+
+            <WebView
+                android:id="@+id/webView_News11"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginBottom="20dp">
+            </WebView>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

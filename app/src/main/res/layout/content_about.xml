@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="jjmpoly.prathameshmore.com.co_jjmpoly.About"
+    tools:showIn="@layout/activity_about">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:ignore="ScrollViewSize">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <ImageView
+                    android:id="@+id/qrImage"
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginBottom="40dp"
+                    android:src="@drawable/download"
+                    tools:ignore="ContentDescription" />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/myTextView"
+                android:typeface="sans"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:textStyle="normal|bold|italic" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="For"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/myTextView1"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif"
+                android:textAllCaps="true"
+                android:textStyle="normal|italic" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/myTextView2"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                />
+
+            <Button
+                android:id="@+id/FBButton"
+                android:layout_width="210dp"
+                android:layout_height="70dp"
+                android:textStyle="normal|bold"
+                android:background="@drawable/facebook_logo"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+               />
+
+            <Button
+                android:id="@+id/TWButton"
+                android:layout_width="210dp"
+                android:layout_height="70dp"
+                android:textStyle="normal|bold"
+                android:background="@drawable/twitter_logo"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+
+            />
+
+            <Button
+                android:id="@+id/downloadButton"
+                android:layout_width="210dp"
+                android:layout_height="70dp"
+                android:textStyle="normal|bold"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="@string/downloadButton"
+                />
+
+        </LinearLayout>
+
+</ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_log_in"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="jjmpoly.prathameshmore.com.co_jjmpoly.LogIn">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:src="@drawable/jjmpoly_logo"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Log In into Computer Department"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="E-mail"
+            android:id="@+id/edtEmail"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/conrners_outline"
+            android:inputType="textEmailAddress"
+            android:fontFamily="monospace" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Password"
+            android:id="@+id/edtPassword"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/conrners_outline"
+            android:inputType="textPassword" />
+        />
+
+        <Button
+            android:id="@+id/BtnlogIn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:text="Log In"
+            android:textColor="@color/white_color"
+            android:background="@color/colorPrimary"
+            android:fontFamily="sans-serif" />
+
+        <Button
+            android:id="@+id/BtnSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:text="Sign Up"
+            android:textColor="@color/white_color"
+            android:background="@color/colorPrimary"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/me"/>
+
+    </LinearLayout>
+</RelativeLayout>

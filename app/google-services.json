@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "180444535116",
+    "firebase_url": "https://cojjmpoly-9ab13.firebaseio.com",
+    "project_id": "cojjmpoly-9ab13",
+    "storage_bucket": "cojjmpoly-9ab13.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:180444535116:android:01e821fdddbf5395",
+        "android_client_info": {
+          "package_name": "jjmpoly.prathameshmore.com.co_jjmpoly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "180444535116-c3he96iutncs4bl0l51h1i5n70rrurgf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "jjmpoly.prathameshmore.com.co_jjmpoly",
+            "certificate_hash": "983EF4301B8B159858D51775753C67FAC1ED8165"
+          }
+        },
+        {
+          "client_id": "180444535116-ffrh9dhpmrria169b37u5vg2v8p58348.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAg75CAYYF57j5v9iR1oIND4j0e6J7BaGI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "180444535116-ffrh9dhpmrria169b37u5vg2v8p58348.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:180444535116:android:835ab90bd7d81aae",
+        "android_client_info": {
+          "package_name": "jjmpoly.prathameshmore.com.jjmpoly_adminpanel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "180444535116-ffrh9dhpmrria169b37u5vg2v8p58348.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAg75CAYYF57j5v9iR1oIND4j0e6J7BaGI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

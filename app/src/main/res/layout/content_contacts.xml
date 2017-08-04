@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_contacts"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="jjmpoly.prathameshmore.com.co_jjmpoly.Contacts"
+    tools:showIn="@layout/activity_contacts">
+
+    <LinearLayout
+        android:layout_margin="@dimen/fab_margin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SHRI. P.B. GADGEEL (HOD)"
+            android:textSize="24sp"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:text="9421108394"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_margin="5dp"
+            />
+
+        <TextView
+            android:text="MISS P.R.DESAI (LECTURER)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:textSize="24sp"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:text="9822170623"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:text="MISS. N.S.KOTHEWALI (LECTURER)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:textSize="24sp"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:text="9527791585"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:text="MISS F.A.PATEL (LECTURER)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView7"
+            android:textSize="24sp"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:text="9822170623"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:text="SHRI PRASHAT PATIL (PEON)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView9"
+            android:textSize="24sp"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:text="9665186335"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView10"
+            android:textSize="14sp"
+            android:layout_margin="5dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

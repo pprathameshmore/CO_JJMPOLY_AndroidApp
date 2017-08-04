@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    tools:context="jjmpoly.prathameshmore.com.co_jjmpoly.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="5dp"
+            tools:ignore="RtlHardcoded,RtlSymmetry,UselessParent">
+
+            <TextView
+                android:id="@+id/mainTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:text="@string/welcome_to_computer_department"
+                android:fontFamily="casual"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textStyle="normal|bold"
+                android:textAllCaps="false" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/mainImageView"
+                android:src="@drawable/mianplaceholder"
+                tools:ignore="ContentDescription"
+                 />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/departmentButton"
+                    android:layout_height="120dp"
+                    android:layout_width="match_parent"
+                    android:text="@string/text_department"
+                    android:drawableTop="@mipmap/ic_school_white_48dp"
+                    android:textColor="#ffffff"
+                    android:fontFamily="sans-serif-medium"
+                    android:textSize="19sp"
+                    android:textStyle="normal|bold|italic"
+                    android:onClick="btnDepartmentClick"
+                    android:background="#37da37" />
+
+                <Button
+                    android:id="@+id/timeTableButton"
+                    android:layout_height="120dp"
+                    android:layout_width="match_parent"
+                    android:text="@string/text_timetable"
+                    android:drawableTop="@mipmap/ic_event_white_48dp"
+                    android:textColor="#ffffff"
+                    android:textSize="19sp"
+                    android:textStyle="normal|bold|italic"
+                    android:onClick="btnTimeTableClick"
+                    tools:ignore="UnusedAttribute"
+                    android:background="@android:color/holo_blue_bright" />
+
+                <Button
+                    android:id="@+id/noticeBoardButton"
+                    android:layout_height="120dp"
+                    android:layout_width="match_parent"
+                    android:text="@string/text_notice"
+                    android:drawableTop="@mipmap/ic_assignment_white_48dp"
+                    android:textColor="#ffffff"
+                    android:textSize="19sp"
+                    android:textStyle="normal|bold|italic"
+                    android:onClick="btnNoticeBoardClick"
+                    tools:ignore="UnusedAttribute"
+                    android:background="@android:color/holo_green_light" />
+
+
+                <Button
+                    android:id="@+id/contactsButton"
+                    android:layout_height="120dp"
+                    android:layout_width="match_parent"
+                    android:text="@string/text_contacts"
+                    android:drawableTop="@mipmap/ic_contact_phone_white_48dp"
+                    android:textColor="#ffffff"
+                    android:textSize="19sp"
+                    android:textStyle="normal|bold|italic"
+                    android:onClick="btnContactsClick"
+                    tools:ignore="UnusedAttribute"
+                    android:background="@color/colorPrimary" />
+
+                <Button
+                    android:id="@+id/messageButton"
+                    android:layout_height="120dp"
+                    android:layout_width="match_parent"
+                    android:text="@string/text_message"
+                    android:drawableTop="@mipmap/ic_message_white_48dp"
+                    android:textColor="#ffffff"
+                    android:fontFamily="sans-serif-medium"
+                    android:textSize="19sp"
+                    android:textStyle="normal|bold|italic"
+                    android:onClick="btnMessageClick"
+                    tools:ignore="UnusedAttribute"
+                    android:background="#1b0ff0" />
+
+                <Button
+                    android:id="@+id/techNewsButton"
+                    android:layout_height="120dp"
+                    android:layout_width="match_parent"
+                    android:text="@string/text_technews"
+                    android:drawableTop="@mipmap/ic_extension_white_48dp"
+                    android:textColor="#ffffff"
+                    android:fontFamily="sans-serif-medium"
+                    android:textSize="19sp"
+                    android:textStyle="normal|bold|italic"
+                    android:onClick="btnTechNewsClick"
+                    tools:ignore="UnusedAttribute"
+                    android:background="#fb0341" />
+
+                <Button
+                    android:id="@+id/complaintButton"
+                    android:layout_height="120dp"
+                    android:layout_width="match_parent"
+                    android:text="@string/text_complaint"
+                    android:drawableTop="@mipmap/ic_extension_white_48dp"
+                    android:textColor="#ffffff"
+                    android:fontFamily="sans-serif-medium"
+                    android:textSize="19sp"
+                    android:textStyle="normal|bold|italic"
+                    android:onClick="btnComplaintClick"
+                    tools:ignore="UnusedAttribute"
+                    android:background="#ab04ff" />
+
+                <Button
+                    android:id="@+id/aboutButton"
+                    android:layout_height="120dp"
+                    android:layout_width="match_parent"
+                    android:text="@string/text_about"
+                    android:drawableTop="@mipmap/ic_feedback_white_48dp"
+                    android:textColor="#ffffff"
+                    android:textSize="19sp"
+                    android:textStyle="normal|bold|italic"
+                    android:onClick="btnAboutClick"
+                    tools:ignore="UnusedAttribute"
+                    android:background="#330118" />
+
+                <Button
+                    android:id="@+id/infoButton"
+                    android:layout_height="120dp"
+                    android:layout_width="match_parent"
+                    android:text="@string/text_info"
+                    android:drawableTop="@mipmap/ic_settings_ethernet_white_48dp"
+                    android:textColor="#ffffff"
+                    android:textSize="19sp"
+                    android:textStyle="normal|bold|italic"
+                    android:onClick="btnInfoClick"
+                    tools:ignore="UnusedAttribute"
+                    android:background="@android:color/darker_gray" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+
+
+</RelativeLayout>

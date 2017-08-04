@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_complaints"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="jjmpoly.prathameshmore.com.co_jjmpoly.ComplaintsActivity"
+    tools:showIn="@layout/activity_complaints">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_complaint_text"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textSize="20dp"
+        android:paddingBottom="20dp"
+        />
+
+    <EditText
+        android:id="@+id/subjectEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Subject"
+        android:singleLine="true"/>
+
+    <EditText
+        android:id="@+id/detailsEditText"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:hint="Your Complaint"
+        android:singleLine="false"/>
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/submit"
+            android:onClick="btnComplaint"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white_color"/>
+
+
+
+</LinearLayout>
